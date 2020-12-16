@@ -7,9 +7,9 @@ def mixture(flavor):
         print('Cola')
 
 
-def drink():
-    mixture('orange')
+def drink(func):
+    func('orange')
 
 
 if __name__ == '__main__':
-    drink()
+    drink(mixture)
