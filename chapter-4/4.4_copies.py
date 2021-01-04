@@ -10,6 +10,7 @@ x = [
 y = x
 # a shallow copy of x
 z = list(x)
+# a deep copy of x
 a = copy.deepcopy(x)
 
 print(f'{y = }')
