@@ -28,11 +28,3 @@ class Cat(Animal):
 
 c = Cat()
 print(c.speak())
-
-
-
-
-
-
-
-
